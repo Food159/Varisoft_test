@@ -1,0 +1,54 @@
+{
+    "name": "Player_Controller",
+    "maps": [
+        {
+            "name": "Player_Controller",
+            "id": "a9cba991-a404-419c-807f-a09ebddaf534",
+            "actions": [
+                {
+                    "name": "Player_Walk",
+                    "type": "Value",
+                    "id": "94f356a3-22d3-4426-aa38-96e35fece167",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Player_Attack",
+                    "type": "Button",
+                    "id": "183b1e14-4fdd-463b-9772-1d3b0c1bdd45",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5dd86fd2-39af-4853-9b4c-924075569778",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71558d6c-7d60-4515-9f4e-ccdb00ab6dfb",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
